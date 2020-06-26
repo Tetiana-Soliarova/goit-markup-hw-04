@@ -146,19 +146,21 @@ header{
 
 .item-mailo{
     display: flex;
-    width: 16px;
-    height: 11px;
+    width: 161px;
+   
     list-style: none;
 }
     
 .icon-telefon{
     padding: 0px;
+    width: 15px;
+    height: 10px;
     fill: blue;
 }
 .header-address{
     display: flex;
-    width: 15px;
-    height: 10px;
+    width: 142px;
+    
     
 }
 .address-title a {
