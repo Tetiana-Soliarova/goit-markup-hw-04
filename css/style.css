@@ -179,7 +179,10 @@ header{
     letter-spacing: 0.02em;
     
 }
-.icon-telefon,
+.icon-telefon :hover{
+    fill: var(--accent-color);
+};
+}
 .icon-convert :hover{
     fill: var(--accent-color);
 }
