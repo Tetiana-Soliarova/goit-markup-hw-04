@@ -138,24 +138,31 @@ header{
     width: 16px;
     height: 11px;
     padding: 0px;
-    margin: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     margin-right: 10px;
     fill: #757575;
     border: none;
 }
 
-.item-mailo{
-    display: flex;
+
+  .item-mailo{
+    display: flex; 
     width: 161px;
-   
+    height: 16px;
+    margin-right: 30px;
+    margin-top: 32px;
+    margin-bottom: 32px;
     list-style: none;
-}
-    
+}  
 .icon-telefon{
-    padding: 0px;
-    border: 0px;
     width: 10px;
     height: 15px;
+    padding: 0px;
+    border: 0px;
+    
+    margin-right: 10px;
     fill: #757575;
 }
 .header-address{
@@ -172,18 +179,17 @@ header{
     letter-spacing: 0.02em;
     
 }
+.icon-telefon,
+.icon-convert :hover{
+    fill: var(--accent-color);
+}
 
 .address-title :hover,
 .address-title :focus {
     color: var(--accent-color);
 }
 
-.item-mailo{
-    width: 161px;
-    margin-right: 30px;
-    margin-top: 32px;
-    margin-bottom: 32px;
-}
+
 
 .item-mailo a{
     margin-left: 0px;
