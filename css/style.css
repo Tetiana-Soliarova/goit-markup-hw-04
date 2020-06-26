@@ -169,6 +169,7 @@ header{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    width: 161px;
 }
 
 .address-title :hover,
