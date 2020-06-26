@@ -127,13 +127,9 @@ header{
     justify-content: flex-end;
 
     font-style: normal;
-    
-}
-
-.header-address{
-    width: 142px;
     margin-top: 32px;
 }
+
 
 /*Стилизацыя  контактной инфрмации*/
 
@@ -145,13 +141,8 @@ header{
     margin: 0px;
     margin-right: 10px;
     fill: #757575;
-    border: 1px solid red;
+    border: none;
 }
-
-/*.item-mailo::before{
-    display: inline-flex;
-    /*background-size: contain;
-    content:"";*/
 
 .item-mailo{
     display: flex;
@@ -160,15 +151,16 @@ header{
     list-style: none;
 }
     
-   /*background-repeat: no-repeat;
-    background-position: bottom;
-    /*background-color: rosybrown;
-    background-image: url('../images/convert\ \(hover\).svg');
-    margin-right: 5px;
-    cursor: unset;
-    /*outline: 1px solid red;
-}*/
-
+.icon-telefon{
+    padding: 0px;
+    fill: blue;
+}
+.header-address{
+    display: flex;
+    width: 15px;
+    height: 10px;
+    
+}
 .address-title a {
     color:  #757575;
     font-weight: 500;
