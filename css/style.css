@@ -153,9 +153,10 @@ header{
     
 .icon-telefon{
     padding: 0px;
+    border: 0px;
     width: 10px;
     height: 15px;
-    fill: blue;
+    fill: #757575;
 }
 .header-address{
     display: flex;
