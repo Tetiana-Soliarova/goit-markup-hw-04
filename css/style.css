@@ -147,7 +147,7 @@ header{
     border: 1px solid red;
 }
 
-.item-mailo::before{
+/*.item-mailo::before{
     display: inline-flex;
     background-size: contain;
     content:"";
