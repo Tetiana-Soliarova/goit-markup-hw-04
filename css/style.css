@@ -305,7 +305,8 @@ header{
     height: 120px;
     margin-right: 30px;
     margin-bottom: 30px;
-    fill: #F5F4FA;
+    color: hsl(251, 37%, 73%);
+    border: 1px solid red;
     border-radius: 4px;
 
  }  
