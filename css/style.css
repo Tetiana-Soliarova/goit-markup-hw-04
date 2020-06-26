@@ -147,10 +147,10 @@ header{
     border: 1px solid red;
 }
 
-/*.item-mailo::before{
+.item-mailo::before{
     display: inline-flex;
-    background-size: contain;
-    content:"";
+    /*background-size: contain;
+    content:"";*/
     width: 16px;
     height: 11px;
     background-repeat: no-repeat;
