@@ -138,7 +138,7 @@ header{
 /*Стилизацыя  контактной инфрмации*/
 
 .icon-convert{
-    display: flex;
+    
     width: 16px;
     height: 11px;
     padding: 0px;
@@ -151,12 +151,15 @@ header{
     display: inline-flex;
     /*background-size: contain;
     content:"";*/
-/*.item-mailo{
+
+.item-mailo{
+    display: flex;
     width: 16px;
     height: 11px;
+    list-style: none;
 }
     
-    /*background-repeat: no-repeat;
+   /*background-repeat: no-repeat;
     background-position: bottom;
     /*background-color: rosybrown;
     background-image: url('../images/convert\ \(hover\).svg');
@@ -835,5 +838,3 @@ address p {
     background-position: center;
     background-image: url('../images/sprite.svg#icon-antenna');
 }
-.ggg{
-    
