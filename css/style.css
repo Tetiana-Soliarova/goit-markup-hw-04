@@ -163,7 +163,7 @@ header{
     border: 0px;
     
     margin-right: 10px;
-    fill: #757575;
+    fill:#757575;
 }
 .header-address{
     display: flex;
@@ -172,18 +172,18 @@ header{
     
 }
 .address-title a {
-    color:  #757575;
+    color:#757575;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     
 }
-.icon-telefon :hover{
+.icon-telefon:hover{
     fill: var(--accent-color);
 };
 }
-.icon-convert :hover{
+.icon-convert:hover{
     fill: var(--accent-color);
 }
 
