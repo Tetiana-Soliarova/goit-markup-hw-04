@@ -147,19 +147,22 @@ header{
     border: 1px solid red;
 }
 
-.item-mailo::before{
+/*.item-mailo::before{
     display: inline-flex;
     /*background-size: contain;
     content:"";*/
+.item-mailo{
     width: 16px;
     height: 11px;
-    background-repeat: no-repeat;
+}
+    
+    /*background-repeat: no-repeat;
     background-position: bottom;
-    /*background-color: rosybrown;*/
+    /*background-color: rosybrown;
     background-image: url('../images/convert\ \(hover\).svg');
     margin-right: 5px;
     cursor: unset;
-    /*outline: 1px solid red;*/
+    /*outline: 1px solid red;
 }*/
 
 .address-title a {
