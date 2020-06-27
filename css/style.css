@@ -499,24 +499,25 @@ header{
     display: flex;
     width: 44px;
     height: 44px;
-    margin: 0px;
+    margin: 10px;
     padding: 0px;
+    border-radius: 50%;
     justify-content: center;
     align-items: center;
-    border: 1px  solid saddlebrown;
+    
 }
 
 .icon-instagram{
     width: 20px;
     height: 20px;
     padding: 0;
-    bottom: 1px solid red;
-    fill:#afb1b8
+    
+    fill:#060914
 }
 
 .icon-instagram:hover{
     fill: salmon;
-    
+
 }
 /*ВАРІАНТ 2
 .mesenger-icon{
