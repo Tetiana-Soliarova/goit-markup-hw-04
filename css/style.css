@@ -307,12 +307,10 @@ header{
     margin-right: 30px;
     margin-bottom: 30px;
     background-color: #F5F4FA;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     border-radius: 4px;
     justify-content: center;
     align-items: center;
-
-
  }  
  .icon-astronaut{
      width: 70px;
@@ -410,9 +408,6 @@ header{
 }
 
 
-
-
-
 .img {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -448,7 +443,6 @@ header{
 
 /*Сотрудники компании*/
 .section-employees-company{
-  
     background-color: #F5F4FA;
 }
 
@@ -499,6 +493,20 @@ header{
 .mesenger-icon:hover,
 .mesenger-icon:focus{
     background-color: var(--accent-color);
+}
+
+.mesenger-icon{
+    display: flex;
+    width: 44px;
+    height: 44px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px  solid saddlebrown;
+}
+
+.icon-instagram{
+    padding: 0;
+    bottom: 1px solid red;
 }
 /*ВАРІАНТ 2
 .mesenger-icon{
