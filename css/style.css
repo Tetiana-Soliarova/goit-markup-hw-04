@@ -507,7 +507,10 @@ header{
     
 }
 
-.icon-instagram{
+.icon-instagram,
+.icon-telegram,
+.icon-facebook,
+.icon-linkedin{
     width: 20px;
     height: 20px;
     padding: 0;
