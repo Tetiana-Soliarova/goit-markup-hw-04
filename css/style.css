@@ -314,9 +314,24 @@ header{
 
 
  }  
- .icon-astronaut,
- .icon-clock,
- .icon-diagram,
+ .icon-astronaut{
+     width: 70px;
+     height: 70px;
+     padding: 0;
+     bottom: 0; 
+ }
+ .icon-clock{
+     width: 70px;
+     height: 70px;
+     padding: 0;
+     bottom: 0;
+ }
+ .icon-diagram{
+     width: 70px;
+     height: 70px;
+     padding: 0;
+     bottom: 0;
+ }
  .icon-antenna{
      width: 70px;
      height: 70px;
