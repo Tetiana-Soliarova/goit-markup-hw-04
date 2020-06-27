@@ -310,21 +310,23 @@ header{
     border: 1px solid red;
     border-radius: 4px;
     justify-content: center;
-    justify-items: center;
     align-items: center;
 
 
  }  
- 
- 
+ .icon-astronaut,
+ .icon-clock,
+ .icon-diagram,
  .icon-antenna{
-     width: 65px;
+     width: 70px;
      height: 70px;
      padding: 0;
      bottom: 0;
-     position: center;
+     
      
  }
+
+
 
 
    /* content: "";
