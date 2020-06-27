@@ -515,12 +515,15 @@ header{
     width: 20px;
     height: 20px;
     padding: 0;
-    fill: #AFB1B8;
-    
-    
+    fill: #AFB1B8;  
 }
 
-
+.icon-telegram,
+.icon-facebook,
+.icon-linkedin,
+.icon-instagram:hover{
+    fill:#FFFFFF;
+}
 /*ВАРІАНТ 2
 .mesenger-icon{
     display: inline-block;
