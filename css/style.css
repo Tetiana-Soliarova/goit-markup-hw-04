@@ -493,7 +493,7 @@ header{
 .mesenger-icon:hover,
 .mesenger-icon:focus{
     background-color: var(--accent-color);
-    background-image: black;
+    
 }
 
 .mesenger-icon{
@@ -510,17 +510,27 @@ header{
 
 .icon-instagram,
 .icon-telegram,
-.icon-facebook,
 .icon-linkedin{
     width: 20px;
     height: 20px;
     padding: 0;
-    fill: #AFB1B8;  
+      
 }
-
-.icon-telegram,
-.icon-facebook,
-.icon-linkedin,
+.icon-facebook{
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    fill: #AFB1B8;
+}
+.icon-telegram:hover{
+    fill:#FFFFFF;
+}
+.icon-facebook:hover{
+    fill:#FFFFFF;
+}
+.icon-linkedin:hover{
+    fill:#FFFFFF;
+}
 .icon-instagram:hover{
     fill:#FFFFFF;
 }
