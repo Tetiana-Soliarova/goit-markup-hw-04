@@ -511,12 +511,12 @@ header{
     width: 20px;
     height: 20px;
     padding: 0;
+    background-color: seashell;
     
-    fill:#060914;
 }
 
 .icon-instagram:hover{
-    fill: salmon;
+    color: salmon;
 
 }
 /*ВАРІАНТ 2
