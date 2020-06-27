@@ -493,6 +493,7 @@ header{
 .mesenger-icon:hover,
 .mesenger-icon:focus{
     background-color: var(--accent-color);
+    background-image: black;
 }
 
 .mesenger-icon{
@@ -514,14 +515,12 @@ header{
     width: 20px;
     height: 20px;
     padding: 0;
+    fill: #AFB1B8;
     
     
 }
 
-.icon-instagram:hover{
-    color: salmon;
 
-}
 /*ВАРІАНТ 2
 .mesenger-icon{
     display: inline-block;
