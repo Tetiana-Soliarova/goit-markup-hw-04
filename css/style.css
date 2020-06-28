@@ -870,6 +870,9 @@ address p {
 .footer-ligns{
     display:flex;
 }
+.fleks-button{
+    display: flex;
+}
 .vstavka{
     width: 358px;
     height: 50px;
