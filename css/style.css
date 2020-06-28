@@ -626,8 +626,30 @@ header{
     display:flex;
     margin:0px;
     padding:0px;
-    width:42px;
-
+}
+/*.client-1{
+    width: 44px;
+    height: 49px;
+}*/
+.client-2{
+    width: 40px;
+    height: 52px;
+}
+.client-3{
+    width: 42px;
+    height: 43px;
+}
+.client-4{
+    width: 47px;
+    height: 59px;
+}
+.client-5{
+    width: 47px;
+    height: 59px;
+}
+.client-6{
+    width: 45px;
+    height: 88px;
 }
 /*.client-name {
     content: "";
