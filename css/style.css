@@ -868,10 +868,11 @@ address p {
     padding: 0px;
 }
 .footer-ligns{
-    display:flex;
+    display:block;
 }
 .fleks-button{
     display: flex;
+    margin-top:20px;
 }
 .vstavka{
     width: 358px;
