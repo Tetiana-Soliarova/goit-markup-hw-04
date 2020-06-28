@@ -803,19 +803,13 @@ address p {
     height: 80px;
 
 }
-.foter{
-    display: inline-block;
-}
+
 .block-footer{
+    display: flex;
     padding: 0px;
+    margin-top: 20px;
 
 }
-
-.li-footer{
-    margin: 0px;
-    margin-right: 10px;
-}
-
 
 .footer-icon{
     display: flex;
