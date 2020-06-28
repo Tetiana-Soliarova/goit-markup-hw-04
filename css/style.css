@@ -863,24 +863,51 @@ address p {
 }
 
 /**/
+.rassilka{
+    margin-bottom: 20px;
+    padding: 0px;
+}
+.footer-ligns{
+    display:flex;
+}
 .vstavka{
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
-
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    margin-right: 12px;
+    cursor:pointer;
+}
+.vstavka:hover{
+
+    border-color: var(--accent-color);
 }
 .button-footer{
     width: 200px;
     height: 50px;
-    border: ;
+    background: #2196F3;
+    border:1px solid #2196F3;
+
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color:#ffffff;
+
+    cursor:pointer;
+
+}
+.button-footer:hover{
+    background-color: #2196F3;
 }
 .button-send{
-   display: flex;
-    align-items: center;
-    text-align: center; 
+    fill: #FFFFFF;
+    width:24px;
+    height:24px;
+    margin-left:10px;
 }
+
+
 
 
 
