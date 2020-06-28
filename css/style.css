@@ -799,6 +799,18 @@ address p {
     margin-bottom: 0px;
 }
 
+.footer-icon{
+    display: flex;
+    width: 44px;
+    height: 44px;
+    padding: 0px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    fill: #FFFFFF;
+     background: rgba(255, 255, 255, 0.1);
+}
+
 .footer-ligns{
     margin-top: 57px;
     margin-bottom: 50px;
