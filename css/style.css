@@ -508,6 +508,9 @@ header{
     background-color: var(--accent-color);
     
 }
+.mesenger-icon:hover{
+   fill:#ffffff;
+}
 
 .mesenger-icon{
     display: flex;
@@ -518,7 +521,7 @@ header{
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    
+    fill: #AFB1B8;
 }
 
 .icon-instagram,
@@ -527,15 +530,15 @@ header{
     width: 20px;
     height: 20px;
     padding: 0;
-    fill: #AFB1B8; 
+    
 }
 .icon-facebook{
     width: 20px;
     height: 20px;
     padding: 0;
-    fill: #AFB1B8;
+    
 }
-.icon-telegram:hover{
+/*.icon-telegram:hover{
     fill:#FFFFFF;
 }
 .icon-facebook:hover{
