@@ -797,6 +797,9 @@ address p {
 .footer-content{
     margin-top: 57px;
     margin-bottom: 0px;
+    width: 206px;
+    height: 80px;
+
 }
 
 .footer-icon{
@@ -804,13 +807,14 @@ address p {
     width: 44px;
     height: 44px;
     padding: 0px;
+    margin-right: 10px;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
     fill: #FFFFFF;
-     background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
 }
-.footer-icon :hover{
+.footer-icon:hover{
     background-color: var(--accent-color);
 }
 .footer-meseg{
