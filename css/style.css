@@ -796,20 +796,18 @@ address p {
 .footer-content{
     margin-top: 57px;
     margin-bottom: 0px;
+    margin-left: 0px;
     width: 206px;
     height: 80px;
 
 }
 .foter{
-    /*width: 206px;
-    height: 44px;
+    display: inline-block;
+}
+/.block-footer{
     padding: 0px;
 
 }
-/*.block-footer{
-    padding: 0px;
-
-}*/
 
 .li-footer{
     margin: 0px;
