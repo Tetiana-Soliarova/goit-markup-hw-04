@@ -595,10 +595,10 @@ header{
     margin-top: 0px;
 }
 
-.client :hover,
+/*.client :hover,
 .client :focus{
    border-color: var(--accent-color);  
-}
+}*/
  
 
 .client{
@@ -609,11 +609,11 @@ header{
     padding-bottom: 0px;
 
 }
-.clients-name{
+.client-name{
     display: flex;
     width: 170px;
     height: 90px;
-     margin-right: 30px;
+    margin-right: 30px;
     margin-bottom: 94px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -623,6 +623,10 @@ header{
 }
 
 .clients-log{
+    display:flex;
+    margin:0px;
+    padding:0px;
+    width:42px;
 
 }
 /*.client-name {
@@ -643,7 +647,7 @@ header{
     margin-right: 0px;
     padding-right: 0px;
 }
-.logo-client{
+/*.logo-client{
     display: flex;
     justify-content: center;
     align-items: center;
