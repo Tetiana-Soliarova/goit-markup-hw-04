@@ -793,6 +793,8 @@ address p {
     font-size: 12px;
     line-height: 2;
 }
+
+/**/
 .footer-content{
     margin-top: 57px;
     margin-bottom: 0px;
@@ -804,7 +806,7 @@ address p {
 .foter{
     display: inline-block;
 }
-/.block-footer{
+.block-footer{
     padding: 0px;
 
 }
@@ -836,6 +838,9 @@ address p {
     padding: 0; 
 }
 
+
+
+/**/
 .footer-ligns{
     margin-top: 57px;
     margin-bottom: 50px;
