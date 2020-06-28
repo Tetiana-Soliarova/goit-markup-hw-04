@@ -621,16 +621,19 @@ header{
     align-items: center;
     background-size: contain;
 }
-
+.client-name:last-child{   
+    margin-right: 0px;
+    padding-right: 0px;
+}
 .clients-log{
     display:flex;
     margin:0px;
     padding:0px;
 }
-/*.client-1{
+.client-1{
     width: 44px;
     height: 49px;
-}*/
+}
 .client-2{
     width: 40px;
     height: 52px;
@@ -640,8 +643,8 @@ header{
     height: 43px;
 }
 .client-4{
-    width: 47px;
-    height: 59px;
+    width: 79px;
+    height: 42px;
 }
 .client-5{
     width: 47px;
@@ -650,6 +653,11 @@ header{
 .client-6{
     width: 45px;
     height: 88px;
+}
+
+.client-name :hover{
+    border-color: var(--accent-color);
+
 }
 /*.client-name {
     content: "";
@@ -665,10 +673,7 @@ header{
     margin-right: 30px;
     background-color: #FFFFFF; 
 }*/
-.client-name:last-child{   
-    margin-right: 0px;
-    padding-right: 0px;
-}
+
 /*.logo-client{
     display: flex;
     justify-content: center;
