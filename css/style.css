@@ -490,6 +490,19 @@ header{
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
     border-radius: 0px 0px 4px 4px;
 }
+.last{
+    margin-right: 0px;
+}
+
+.messenger{
+    display: inline-block; 
+}
+.mesenger-list{
+    display: inline-flex;
+    padding: 0px 0px 0px 0px;
+    margin-bottom:24px;
+}
+
 .mesenger-icon:hover,
 .mesenger-icon:focus{
     background-color: var(--accent-color);
@@ -515,7 +528,7 @@ header{
     height: 20px;
     padding: 0;
     fill: #AFB1B8; 
-}Ф 
+}
 .icon-facebook{
     width: 20px;
     height: 20px;
@@ -563,19 +576,9 @@ header{
 .icon-linkedin{
     background-image: url('../images/linkedin\ 1.svg');
 }*/
-.last{
-    margin-right: 0px;
-}
 
-.messenger{
-    display: inline-block; 
-}
 
- .mesenger-list{
-    display: inline-flex;
 
-    padding: 0px 0px 0px 0px;
- }
 
 
 
@@ -622,7 +625,13 @@ header{
     margin-right: 0px;
     padding-right: 0px;
 }
-
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: 50%;
+}
+/*
 .client-1{
     background-image: url('../images/logo\ 1.svg');
 }
@@ -640,7 +649,7 @@ header{
 }
 .client-6{
     background-image: url('../images/logo\ 6.svg');
-}
+}*/
 
 /*Подвал*/
 
