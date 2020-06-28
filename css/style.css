@@ -609,21 +609,25 @@ header{
     padding-bottom: 0px;
 
 }
+.client-name{
+    margin-right: 30px;
+}
+.client-name:last-child{   
+    margin-right: 0px;
+    padding-right: 0px;
+}
 .clients-log{
     display: flex;
     width: 170px;
     height: 90px;
-    margin-right: 30px;
+    
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     justify-content: center;
     align-items: center;
     background-size: contain;
 }
-.client-name:last-child{   
-    margin-right: 0px;
-    padding-right: 0px;
-}
+
 .clients-log{
     display:flex;
     margin:0px;
@@ -655,12 +659,12 @@ header{
     height: 45px;
 }
 
-.client-name:hover{
+.clients-log:hover{
     border-color: var(--accent-color);
 
 }
 
-.client-name:hover{
+.clients-log:hover{
     fill: var(--accent-color);
 }
 /*.client-name {
