@@ -793,15 +793,6 @@ address p {
     font-size: 12px;
     line-height: 2;
 }
-.block-footer{
-    padding: 0px;
-
-}
-
-.li-footer{
-    margin: 0px;
-    margin-right: 10px;
-}
 .footer-content{
     margin-top: 57px;
     margin-bottom: 0px;
@@ -809,6 +800,22 @@ address p {
     height: 80px;
 
 }
+.foter{
+    /*width: 206px;
+    height: 44px;
+    padding: 0px;
+
+}
+/*.block-footer{
+    padding: 0px;
+
+}*/
+
+.li-footer{
+    margin: 0px;
+    margin-right: 10px;
+}
+
 
 .footer-icon{
     display: flex;
