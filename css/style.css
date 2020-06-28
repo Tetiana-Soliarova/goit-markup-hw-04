@@ -1070,12 +1070,17 @@ address p {
     display: none;
     margin: 0px;
 }
-    
+ .content-item{
+    border: 1px solid #EEEEEE;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+ }   
 .project-name{
     color:  var(--primery-text-color);
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
+    padding-left: 24px;
+    margin-bottom: 4px;
 
 }
 .project{
@@ -1083,7 +1088,7 @@ address p {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    
+    padding-left: 24px;
     margin-top: 0px;
 
 }
@@ -1132,19 +1137,3 @@ address p {
 
 
 
-.action{
-    display: flex;
-    padding: 0px;
-    margin: 0px;
-    outline: 1px solid black;
-    list-style: none;
-}
-.buttonb{
-    display: block;
-    width: 200px;
-    height: 200px;
-    padding: 0;
-    bottom: 0;
-    background-position: center;
-    background-image: url('../images/sprite.svg#icon-antenna');
-}
