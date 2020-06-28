@@ -628,6 +628,7 @@ header{
     display:flex;
     margin:0px;
     padding:0px;
+    fill: #afb1b8;
 }
 .client-1{
     width: 44px;
@@ -650,13 +651,17 @@ header{
     height: 59px;
 }
 .client-6{
-    width: 45px;
-    height: 88px;
+    width: 88px;
+    height: 45px;
 }
 
-.client-name :hover{
+.client-name:hover{
     border-color: var(--accent-color);
 
+}
+
+.client-name:hover{
+    fill: var(--accent-color);
 }
 /*.client-name {
     content: "";
