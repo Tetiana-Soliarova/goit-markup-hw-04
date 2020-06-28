@@ -793,7 +793,15 @@ address p {
     font-size: 12px;
     line-height: 2;
 }
+.block-footer{
+    padding: 0px;
 
+}
+
+.li-footer{
+    margin: 0px;
+    margin-right: 10px;
+}
 .footer-content{
     margin-top: 57px;
     margin-bottom: 0px;
