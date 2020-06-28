@@ -810,6 +810,14 @@ address p {
     fill: #FFFFFF;
      background: rgba(255, 255, 255, 0.1);
 }
+.footer-icon :hover{
+    background-color: var(--accent-color);
+}
+.footer-meseg{
+    width: 20px;
+    height: 20px;
+    padding: 0; 
+}
 
 .footer-ligns{
     margin-top: 57px;
