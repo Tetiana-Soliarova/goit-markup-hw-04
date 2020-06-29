@@ -45,6 +45,7 @@ ul {
 
 header{
     display: flex;
+    background-color: #FFFFFF;
 }
 .header-list {
     width: 1200px;
